@@ -40,7 +40,6 @@ print(total_fuel)
 
 def get_fuel_with_mass(mass):
     total_fuel = 0
-    fuel = 0
     while True:
         fuel = floor(mass / 3) - 2
         if fuel <= 0:
